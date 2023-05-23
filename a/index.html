@@ -135,7 +135,7 @@
           calculate() {
             try {
               const result = new Function("return " + this.display)();
-              this.display = result.toFixed(2);
+              this.display = parseFloat(result.toFixed(2)).toString();
             } catch (error) {
               this.display = "Error";
             }
