@@ -1,2 +1,2 @@
 # AV Calculator
-A Calculator on top of AlpineJS and VueJS.
+A calculator on top of AlpineJS and VueJS.
